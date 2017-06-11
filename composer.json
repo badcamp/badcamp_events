@@ -1,0 +1,23 @@
+{
+  "name": "badcamp/badcamp_events",
+  "type": "drupal-module",
+  "description": "Provides a Feature with content type and view for showing event content.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/badcamp/badcamp_events",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/badcamp/badcamp_events",
+    "source": "https://github.com/badcamp/badcamp_events.git"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/address": "^1.0",
+    "drupal/field_group": "^1.0"
+  }
+}

@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_event_date_and_time
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_event_type
+    - field.field.node.event.field_event_venue
+    - field.field.node.event.field_maximum_registration
+    - field.field.node.event.field_sold_out
+    - field.field.node.event.field_summit_leaders
+    - node.type.event
+  module:
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_event_date_and_time: true
+  field_event_location: true
+  field_event_type: true
+  field_event_venue: true
+  field_maximum_registration: true
+  field_sold_out: true
+  field_summit_leaders: true
