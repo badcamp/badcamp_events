@@ -6,6 +6,7 @@ dependencies:
   - address
   - badcamp_sponsors
   - datetime_range
+  - eva
   - field
   - field_group
   - menu_ui
@@ -14,5 +15,6 @@ dependencies:
   - taxonomy
   - text
   - user
-version: 8.x-1.0
+  - views
+version: 8.x-1.1
 package: BADCamp
