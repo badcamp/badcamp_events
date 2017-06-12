@@ -1,2 +1,4 @@
 bundle: badcamp
+excluded:
+  - views.view.venue_events
 required: true

@@ -27,11 +27,11 @@ third_party_settings:
         - title
         - field_event_type
         - field_event_date_and_time
-        - field_event_venue
         - field_event_location
         - field_maximum_registration
         - field_sold_out
         - field_summit_leaders
+        - field_event_venue
       parent_name: group_event
       weight: 1
       format_type: tab
@@ -139,7 +139,7 @@ content:
     type: options_select
     region: content
   field_event_venue:
-    weight: 4
+    weight: 26
     settings: {  }
     third_party_settings: {  }
     type: options_select
